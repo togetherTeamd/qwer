@@ -1,0 +1,17 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "dependencies": {
+    "aws-sdk": "^2.1116.0",
+    "browserify": "^17.0.0",
+    "fs": "0.0.1-security",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "dev": "webpack -w --mode development --devtool inline-source-map",
+    "start": "npm run dev"
+  }
+}
